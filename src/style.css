@@ -1,0 +1,124 @@
+body{
+    margin: 0 80px;
+    background-image: linear-gradient(to right, #2c3b08, #38470d, #445411, #516016, #5f6d1a, #69781c, #74841d, #7f901f, #879d1e, #8faa1d, #97b71c, #9fc41b);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.l_header{
+    width: 110px;
+    height: auto;
+    margin: 20px 0 0 20px;
+}
+
+h1 {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+p {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 40px 0;
+}
+
+section{
+    background-color: #D4D4D4;
+    padding-bottom: 50px;
+}
+
+select, input {
+    width: 160px;
+    padding: 5px;
+    margin: 0 20px 0 20px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.247);
+    color: #fff;
+    text-align: center;
+}
+
+option{
+    background: gray}
+
+::placeholder {
+    color: #fff;
+  }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline-start: 0;
+}
+
+.tarjetas {
+    width: 300px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 300px;
+    margin: 50px 60px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 4px 10px 20px 0px rgba(0,0,0,0.3);
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 11px;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 180px;
+}
+
+.titulo{
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+.ul_tarjeta{
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+}
+
+footer {
+    color: #fff;
+    margin: 10px 10px 10px 50px;
+    font-family: "MuseoModerno", sans-serif;
+    font-size: 20px;
+}
+
+.l_footer{
+    width: 200px;
+    height: auto;
+    margin: 30px auto 0 auto;
+   }
