@@ -14,4 +14,4 @@ export function sortData(data, order){
     }
     else return b.name.localeCompare(a.name);
   })
-} 
+}
