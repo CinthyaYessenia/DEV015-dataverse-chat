@@ -1,1 +1,30 @@
-{ "version": 2, "public": true, "builds": [ { "src": "src/index.html", "use": "@vercel/static" } ], "routes": [ { "src": "/(.*)", "dest": "/src/index.html" } ] }
+{
+    "version": 2,
+    "public": true,
+    "builds": [
+      {
+        "src": "src/index.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.js",
+        "headers": [
+          { "key": "Content-Type", "value": "application/javascript" }
+        ]
+      },
+      {
+        "source": "**/*.css",
+        "headers": [
+          { "key": "Content-Type", "value": "text/css" }
+        ]
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/src/index.html"
+      }
+    ]
+  }
